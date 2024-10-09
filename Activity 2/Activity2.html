@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h1>My Playlist</h1>
+            <input type="text" id="search" placeholder="Search for a song...">
+            <ul class="playlist">
+                <li>
+                    <span class="song">Habulin mo ang babaeng lumpo</span>
+                    <span class="artist">George Adiz</span>
+                    <button class="delete-btn">Delete</button>
+                </li>
+                <li>
+                    <span class="song">Levitating</span>
+                    <span class="artist">Dua Lipa</span>
+                    <button class="delete-btn">Delete</button>
+                </li>
+                <li>
+                    <span class="song">Shape of You</span>
+                    <span class="artist">Ed Sheeran</span>
+                    <button class="delete-btn">Delete</button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right-panel">
+            <h2>Add Song</h2>
+            <input type="text" id="title" placeholder="Song title">
+            <input type="text" id="artist" placeholder="Artist name">
+            <button id="add-btn">Add</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
